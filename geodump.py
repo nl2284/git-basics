@@ -23,6 +23,7 @@ for row in cur :
     where = where.replace("'","")
     try :
         print "address:", where, lat, lng
+        print "testing"
         count = count + 1
         if count > 1 : fhand.write(",\n")
         output = "["+str(lat)+","+str(lng)+", '"+where+"']"

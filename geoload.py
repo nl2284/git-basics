@@ -27,6 +27,7 @@ count = 0
 for line in fh:
     if count > 200 : 
         print 'Retrieved 200 locations, restart to retrieve more'
+        print 'Practice Git'
         break
     address = line.strip()
     print ''
